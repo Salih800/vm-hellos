@@ -1,0 +1,21 @@
+path:
+- /root/wasabi/chiasalihcakmak700/plots/
+minerName: Linux
+apiKey: 625792b9-295f-4441-96d5-f836c4406af8
+cachePath: ""
+deviceId: ""
+extraParams: {}
+log:
+  lv: info
+  path: ./log/
+  name: miner.log
+url:
+  # 一个局域网内，代理只需要开一台就可以了，如代理所在的机器Ip是192.168.1.88，端口9190
+  # 下面配置改为
+  # proxy: "http://192.168.1.88:9190"
+  # In a local area network, only one proxy is required. For example, the IP of the machine where the proxy is located is 192.168.1.88 and the port is 9190
+  # The following configuration is changed to
+  # proxy: "http://192.168.1.88:9190"
+  proxy: ""
+scanPath: true
+scanMinute: 20
